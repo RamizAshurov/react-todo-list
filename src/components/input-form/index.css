@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+}
+
+.form__input {
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
+.form__button {
+    padding: 6px 12px;
+    text-transform: initial;
+}

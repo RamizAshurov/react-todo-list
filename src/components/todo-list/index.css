@@ -1,0 +1,54 @@
+.todo-list {
+    border: 2px solid #cecece;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.todo-list p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.todo-item {
+    border-bottom: 2px solid #cecece;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 5px 15px;
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.todo-item__icon {
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+    padding: 7px 9px;
+}
+
+.bi-check-lg {
+    border-color: cadetblue;
+    margin-right: 10px;
+}
+
+.bi-trash {
+    border-color: coral
+}
+
+.todo-item__label {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.todo-item_important .todo-item__label {
+    font-weight: bold;
+    font-size: 26px
+}
+
+.todo-item_complete .todo-item__label {
+    text-decoration: line-through;
+}
